@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    overflow-x: hidden;
+}
+#abouthero {
+    background-image: url("/images/abouthero1.webp");
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.aboutherocontent{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30rem;
+    margin-bottom: 10rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.aboutherocontent button{
+    height: 1.8rem;
+    width: 6rem;
+    border-radius: 10px;
+    /* background:#fff; */
+    border: 6px solid #fff;
+}
+#about2hero img{
+   /* background-image: url("images/aboutbody1.webp"); */
+
+   width: 1000px;
+    margin: 10px;
+   margin-left: 70px; 
+   
+}
